@@ -1,0 +1,33 @@
+.header{
+    margin-top: 10px;
+    width: 100%;
+    padding: auto;
+
+
+}
+.headertittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Alatsi', sans-serif;
+    color: rgb(245, 196, 196);
+    margin-top: 2px;
+} 
+.headtittlesm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+.headtittlelg{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+.headerimg{
+    width:100%;
+    height: 388px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
