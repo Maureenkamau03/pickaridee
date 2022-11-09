@@ -1,0 +1,47 @@
+.singlecar{
+    flex: 9;
+}
+.singlecarwrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+.singlecarimg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlecartittle{
+    text-align: center;
+    margin: 10px;
+    font-family: "lora",sans-serif;
+    font-size: 20px;
+}
+.singlecaredit{
+    float: right;
+    font-size: 16px;
+}
+.singlecaricon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.singlecaricon:first-child{
+
+    color: teal;
+}
+.singlecaricon:last-child{
+    color: tomato;
+}
+.singlecarinfo{
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #b39656;
+}
+.singlecardesc{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
