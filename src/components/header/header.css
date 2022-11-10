@@ -22,12 +22,13 @@
     position: absolute;
     top: 20%;
     font-size: 100px;
+    color: black;
 }
 .headerimg{
     width:100%;
     height: 388px;
     margin-top: 20px;
     background-repeat: no-repeat;
-    object-fit: cover;
-    
+    /* object-fit: cover; */
+
 }
