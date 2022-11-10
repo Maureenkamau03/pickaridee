@@ -1,3 +1,4 @@
+import React from "react"
 import "./topbar.css"
 
 export default function Topbar() {
@@ -6,8 +7,8 @@ export default function Topbar() {
 
 
     <div className="topLeft">
-    <img className="topImg" src="car2.jpeg" alt="icon" />
-        <h1 className="topicon">pickaride </h1>
+    <img className="topIcon" src="car1.jpeg" alt="icon" />
+        <h1 className="topicon">PICKARIDE </h1>
     </div>
     <div className="topCenter">
         <ul className="topList">
