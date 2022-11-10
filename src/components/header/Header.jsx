@@ -6,7 +6,7 @@ export default function Header() {
     <div className="header ">
     <div className="headertittle">
        <span className="headtittlelg"> 
-       Pickaride</span>
+       Pickaride.</span>
     </div>
     <img
     className="headerimg"

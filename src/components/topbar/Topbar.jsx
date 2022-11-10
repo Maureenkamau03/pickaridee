@@ -8,7 +8,7 @@ export default function Topbar() {
 
     <div className="topLeft">
     <img className="topIcon" src="car1.jpeg" alt="icon" />
-        <h1 className="topicon">PICKARIDE </h1>
+        <h1 className="topicon">PICKARIDE. </h1>
     </div>
     <div className="topCenter">
         <ul className="topList">
