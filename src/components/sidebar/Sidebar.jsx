@@ -10,13 +10,13 @@ export default function Sidebar() {
         <p className="sidebarpara">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. c nulla iure!
           Laudantium vitae iure unde minus nihil dolore?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. c nulla iure!
-          Laudantium vitae iure unde minus nihil dolore?
+          Lorem ipsum dolor sit amet cons.ectetur adipisicing elit. c nulla iure!
+          Laudantium vitae iure unde minus nihil
         </p>
       </div>
 
       <div className="sidebaritem">
-        <span className="sidebartittle">FOLLOW US</span>
+        <span className="sidebartittle">FOLLOW US!!!</span>
         <i className="sidebaricon fa-brands fa-facebook"></i>
         <i className="sidebaricon fa-brands fa-twitter"></i>
         <i className="sidebaricon fa-brands fa-instagram"></i>

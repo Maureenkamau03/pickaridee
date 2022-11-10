@@ -23,7 +23,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Customer support
+            Customer support.
           </a>
           <br></br>
           <br></br>
