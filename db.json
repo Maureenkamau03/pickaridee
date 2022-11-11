@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "ronny"
+    }
+  ],
+  "cars": {
+    "id": 1,
+    "name": "subaru",
+    "price": "ksh.3M",
+    "image":"https://www.mastercars.co.za/content/dam/dwa/importers/za/dwa-3/homepage/about-mastercars.jpg.renditions.16_9.1344w.webp"
+  }
+}
