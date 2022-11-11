@@ -17,7 +17,8 @@ export default function Singlecar() {
             <span className="singlecarprice">pricer: <b>ksh. 3m</b></span>
             <span className="singlepcarmodel">model:<b>Toyota</b></span>
         </div>
-        <p className="singlepcardesc">Lorem ipsum, .dolor sit amet consectetur adipisicing elit. In earum
+        <p className="singlepcardesc">Lorem ipsum, .
+        dolor sit amet consectetur adipisicing elit. In earum
             </p>
     </div>
 </div>
