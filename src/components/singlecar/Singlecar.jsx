@@ -2,17 +2,17 @@ import React from "react";
 
 function Singlecar({
 	id,
-    images,
+	images,
 	description,
-    mileage,
+	mileage,
 	registration_no,
-    is_hired,
+	is_hired,
 }) {
 	const [formData, setFormData] = React.useState({
-		car_description:"",
-        registration_no:"",
-        pick_date: "",
-        return_date:"",
+		car_description: "",
+		registration_no: "",
+		pick_date: "",
+		return_date: "",
 		is_hired: false,
 	});
 	const [hire, setHire] = React.useState(is_hired);
@@ -23,7 +23,7 @@ function Singlecar({
 		e.preventDefault();
 		//patch
 		const toSubmit = { ...formData, is_hired: true };
-		fetch("https://nameless-springs-18651.herokuapp.com/tasks/" + id, {
+		fetch("http://127.0.0.1:9292/cars/" + id, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",
@@ -42,11 +42,11 @@ function Singlecar({
 			<div className="cartitle_name">
 				<img src={images} alt="" />
 			</div>
-            <div className="desc">
+			<div className="desc">
 				<span>Car Description: </span>
 				{description}
 			</div>
-            <div className="desc">
+			<div className="desc">
 				<span>Mileage: </span>
 				{mileage}
 			</div>
@@ -60,7 +60,7 @@ function Singlecar({
 					<input
 						type="text"
 						name="solution"
-						value={formData.solution}
+						value={formData.car_description}
 						onChange={inputChangeHandler}
 						placeholder="Indicate the brand and car model"
 					/>
@@ -69,25 +69,25 @@ function Singlecar({
 						type="text"
 						name="comments"
 						id=""
-						value={formData.comments}
+						value={formData.registration_no}
 						onChange={inputChangeHandler}
 						placeholder="Registration Number"
 					/>
-                    <label htmlFor="">Pick Up Date:</label>
+					<label htmlFor="">Pick Up Date:</label>
 					<input
 						type="text"
 						name="comments"
 						id=""
-						value={formData.comments}
+						value={formData.pick_date}
 						onChange={inputChangeHandler}
 						placeholder="Date you will pick your car"
 					/>
-                    <label htmlFor="">Return Date:</label>
+					<label htmlFor="">Return Date:</label>
 					<input
 						type="text"
 						name="comments"
 						id=""
-						value={formData.comments}
+						value={formData.return_date}
 						onChange={inputChangeHandler}
 						placeholder="The date will return your car"
 					/>
@@ -102,4 +102,4 @@ function Singlecar({
 	);
 }
 
-export default ShowTask;
+export default Singlecar;

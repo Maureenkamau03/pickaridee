@@ -1,65 +1,65 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 20px;
-    background-color: rgb(38, 38, 43);
-    height: auto;
-    color: aliceblue;
+	display: flex;
+	margin: 0;
+	justify-content: space-between;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	background-color: rgb(38, 38, 43);
+	height: auto;
+	color: aliceblue;
 }
 
-.icon{
-    text-align: center;
+.icon {
+	text-align: center;
 }
 
-.customer{
-    text-align: center;
+.customer {
+	text-align: center;
 }
 
 .icons {
-    padding: 2px 2px 2px 2px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    padding: 10px;
-    margin-left: 20px;
-    justify-content: space-between;
+	padding: 2px 2px 2px 2px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	padding: 10px;
+	margin-left: 20px;
+	justify-content: space-between;
 }
 
-.icons i{
-    color: black;
+.icons i {
+	color: black;
 }
 
-.icon :hover{
-    transform: scale(1.1);
-    transition: .4s;
+.icon :hover {
+	transform: scale(1.1);
+	transition: 0.4s;
 }
 
 .copyright {
-    text-align: center;
-    margin-bottom: .5em;
+	text-align: center;
+	margin-bottom: 0.5em;
 }
 
-.copyright p{
-    
-    font-size: 14px;
+.copyright p {
+	font-size: 14px;
 }
 
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:200px;
-    width:300px;
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 200px;
+	width: 300px;
 }
 
 .gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:200px;
-    width:300px;
-    border-radius: 20px;
+	overflow: hidden;
+	background: none !important;
+	height: 200px;
+	width: 300px;
+	border-radius: 20px;
 }
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
