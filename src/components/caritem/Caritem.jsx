@@ -11,7 +11,7 @@ function Caritem({
 	images,
 }) {
 	return (
-		<Link to={"/cars/" + id} style={{ textDecoration: "none" }}>
+		<Link to={"/Cars/" + id} style={{ textDecoration: "none" }}>
 			<div className="caritem" key={id}>
 				<div className="cartitle_name">
 					<img src={images} alt="" srcset="" />

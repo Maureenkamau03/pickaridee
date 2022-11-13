@@ -9,10 +9,12 @@ function Singlecar({
 	is_hired,
 }) {
 	const [formData, setFormData] = React.useState({
+		car_id: "",
 		car_description: "",
 		registration_no: "",
-		pick_date: "",
-		return_date: "",
+		licence: "",
+		name: "",
+		phone_no: "",
 		is_hired: false,
 	});
 	const [hire, setHire] = React.useState(is_hired);
@@ -23,10 +25,11 @@ function Singlecar({
 		e.preventDefault();
 		//patch
 		const toSubmit = { ...formData, is_hired: true };
-		fetch("http://127.0.0.1:9292/cars/" + id, {
-			method: "PATCH",
+
+		fetch("http://localhost:9292/rentals", {
+			method: "POST",
 			headers: {
-				"Content-Type": "application/json",
+				"Content-type": "application/json",
 			},
 			body: JSON.stringify(toSubmit),
 		})
@@ -35,6 +38,7 @@ function Singlecar({
 				console.log("Success:", data);
 				setHire(true);
 			});
+
 		e.target.reset();
 	};
 	return (
@@ -59,7 +63,7 @@ function Singlecar({
 					<label htmlFor="solution">Car Description: </label>
 					<input
 						type="text"
-						name="solution"
+						name="car_description"
 						value={formData.car_description}
 						onChange={inputChangeHandler}
 						placeholder="Indicate the brand and car model"
@@ -67,29 +71,38 @@ function Singlecar({
 					<label htmlFor="">Car registration No:</label>
 					<input
 						type="text"
-						name="comments"
+						name="registration_no"
 						id=""
 						value={formData.registration_no}
 						onChange={inputChangeHandler}
 						placeholder="Registration Number"
 					/>
-					<label htmlFor="">Pick Up Date:</label>
+					<label htmlFor="">Name:</label>
 					<input
 						type="text"
-						name="comments"
+						name="name"
 						id=""
-						value={formData.pick_date}
+						value={formData.name}
 						onChange={inputChangeHandler}
-						placeholder="Date you will pick your car"
+						placeholder="full name"
 					/>
-					<label htmlFor="">Return Date:</label>
+					<label htmlFor="">Phone Number</label>
 					<input
 						type="text"
-						name="comments"
+						name="phone_no"
 						id=""
-						value={formData.return_date}
+						value={formData.phone_no}
 						onChange={inputChangeHandler}
-						placeholder="The date will return your car"
+						placeholder="Phone number"
+					/>
+					<label htmlFor="">Driving Licence</label>
+					<input
+						type="text"
+						name="licence"
+						id=""
+						value={formData.licence}
+						onChange={inputChangeHandler}
+						placeholder="Driving licence number"
 					/>
 					<input type="submit" value="Submit" />
 				</form>

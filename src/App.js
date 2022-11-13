@@ -40,23 +40,23 @@ function App() {
 							element={
 								<Singlecar
 									id={car.id}
-									milage={car.milage}
+									mileage={car.mileage}
 									description={car.car_description}
 									images={car.images}
-									registration={car.registration_no}
+									registration_no={car.registration_no}
 									is_hired={car.is_hired}
 								/>
 							}
 						/>
 					))}
-					<Route path="/about" element={<About />} />
-					<Route path="/contact" element={<Contact />} />\
+					{/* <Route path="/about" element={<About />} /> */}
+					{/* <Route path="/contact" element={<Contact />} />\ */}
 					{/* <Route path="/" element={<Login />} /> */}
 					{/* <Route path="/" element={<Register />} /> */}
 					<Route path="/cars" element={<Cars fetchedCars={fetchedCars} />} />
 				</Routes>
-				<Sidebar />
-				<Footer />
+				{/* <Sidebar /> */}
+				{/* <Footer /> */}
 			</Router>
 			/
 		</div>

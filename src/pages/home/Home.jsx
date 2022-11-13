@@ -7,7 +7,7 @@ export default function Home() {
 		<>
 			<div className="home">
 				<Cars />
-				<SideBar />
+				{/* <SideBar /> */}
 			</div>
 		</>
 	);

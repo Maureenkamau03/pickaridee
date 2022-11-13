@@ -6,6 +6,7 @@ export default function Cars({ fetchedCars }) {
 		<div className="cars">
 			{fetchedCars.map((car) => (
 				<Caritem
+					id={car.id}
 					milage={car.mileage}
 					description={car.car_description}
 					images={car.images}
