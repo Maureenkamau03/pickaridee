@@ -10,9 +10,9 @@ import Register from "./pages/register/Register";
 import TopBar from "./components/topbar/Topbar";
 import Header from "./components/header/Header";
 import Singlecar from "./components/singlecar/Singlecar";
-import Sidebar from "./components/sidebar/Sidebar";
+// import Sidebar from "./components/sidebar/Sidebar";
 // import {  Routes, Route } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 	const [fetchedCars, setFetchedCars] = React.useState([]);
@@ -56,7 +56,7 @@ function App() {
 					<Route path="/cars" element={<Cars fetchedCars={fetchedCars} />} />
 				</Routes>
 				{/* <Sidebar /> */}
-				{/* <Footer /> */}
+				<Footer />
 			</Router>
 		</div>
 	);

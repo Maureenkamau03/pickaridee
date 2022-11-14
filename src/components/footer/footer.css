@@ -5,7 +5,7 @@
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: 20px;
-	background-color: rgb(38, 38, 43);
+	background-color: #808080;
 	height: auto;
 	color: aliceblue;
 }
@@ -16,25 +16,20 @@
 
 .customer {
 	text-align: center;
+	
 }
 
-.icons {
+.icons img{
 	padding: 2px 2px 2px 2px;
-	width: 40px;
-	height: 40px;
-	display: flex;
-	padding: 10px;
-	margin-left: 20px;
-	justify-content: space-between;
+	display: inline-block;
+	box-sizing: border-box;
+    height: 50px;
+    background-size: 100% 100%;
 }
 
-.icons i {
-	color: black;
-}
-
-.icon :hover {
+.icons :hover {
 	transform: scale(1.1);
-	transition: 0.4s;
+	transition: 0.3s;
 }
 
 .copyright {
@@ -63,3 +58,4 @@
 a {
 	text-decoration: none;
 }
+@import url('https://css.gg/minimize.css');
