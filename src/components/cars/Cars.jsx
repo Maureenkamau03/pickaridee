@@ -17,3 +17,4 @@ export default function Cars({ fetchedCars }) {
 		</div>
 	);
 }
+// added car hire logic
