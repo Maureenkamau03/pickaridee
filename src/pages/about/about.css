@@ -1,0 +1,19 @@
+.about{
+    margin-top: -30px;
+    margin-left: -5%;
+    font-size: 30px;
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 3%, 36%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 20%, 1%) 20%);
+    -webkit-background-clip: text;
+    color: rgb(114, 129, 143);
+    animation: shine 3s infinite linear;
+    background-color: rgb(204, 144, 70);
+}
+.paragraph{
+    margin-top: 2%;
+    color: rgb(16, 16, 16);
+    margin-bottom: 10px;
+    text-decoration-color: rgb(4, 4, 4);
+    align-items: center;
+   
+  }
