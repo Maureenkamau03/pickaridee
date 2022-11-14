@@ -24,7 +24,20 @@ The database keeps track of the current (active) RENTALs.
 5)a customer should have a location adress
 6)a customer should have an email adress.
 
+# Technologies Used 
+technologies used are:
+1.React js
+2.ruby
+3.figma
+4.sqlite
+5.css
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
