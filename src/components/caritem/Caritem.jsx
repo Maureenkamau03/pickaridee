@@ -22,9 +22,9 @@ function Caritem({
 				<div className="desc">
 					<span>Mileage:</span> {milage}
 				</div>
-				<div className="desc">
+				{/* <div className="desc">
 					<span>Registration</span> {registration_no}
-				</div>
+				</div> */}
 				{is_hired ? <p>Hired</p> : <p>Not Hired</p>}
 			</div>
 		</Link>
