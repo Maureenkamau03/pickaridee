@@ -18,3 +18,4 @@ export default function Cars({ fetchedCars }) {
 	);
 }
 // added car hire logic
+// something went wrong
