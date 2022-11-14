@@ -1,4 +1,28 @@
 # Getting Started with Create React App
+## project Name
+# PickaRide
+## project Description
+This project is about a car rental company.it enables the company to keep track of information concerning the cars being rented as well as the users renting those cars.
+
+This application allows the user to hire a car based on car type and model. The customer will be allowed to hire the car either on weekly basis or daily basis. The changes depends on the type of the car selected and the duration it will be hired.
+
+The Application  database keeps track of cars available for rental. Each type of car has its own DailyRate and WeeklyRate meaning that cars of the same model have the same rental rates. There is only one rental location.
+
+Each CAR has a Vehicle ID which is unique number for each car ie Model: Toyota premio
+
+
+The database keeps track of the current (active) RENTALs. 
+
+## Requirements:
+## a:CAR:
+1.Car has a vehichle id,milage and car description
+
+## b: Customers
+1)Each customer should have a licence number. 
+2)Each customer should have a phone number.
+4)a customer should have a full name.
+5)a customer should have a location adress
+6)a customer should have an email adress.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
