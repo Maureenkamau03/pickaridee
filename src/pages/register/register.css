@@ -1,0 +1,60 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(200, 212, 223);
+    background-size: cover;
+
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0.5rem;
+    }
+}
+
+.registerform>label {
+    margin: 10px 0;
+}
+
+.registerinput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.registerbutton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.login {
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    padding: 10px;
+}

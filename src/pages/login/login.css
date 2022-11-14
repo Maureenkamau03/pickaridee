@@ -1,54 +1,51 @@
-/* 
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(200, 212, 223);
+  background-size: cover;
+}
 
-.App {
-    text-align: center;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: rgb(203, 203, 252);
-  }
-  
-  .auth-form-container,
-  .login-form,
-  .register-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  @media screen and (min-width: 600px) {
-    .auth-form-container {
-      padding: 5rem;
-      border: 1px solid white;
-      border-radius: 10px;
-      margin: 0.5rem;
-    }
-  }
-  
-  label {
-    text-align: left;
-    padding: 0.25rem 0;
-  }
-  
-  input {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: none;
-    border-radius: 10px;
-  }
-  
-  button {
-    border: none;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #7439db;
-  }
-  
-  .link-btn {
-    background: none;
-    color: white;
-    text-decoration: underline;
-  } */
+.logintittle {
+  font-size: 50px;
+}
+
+.loginform {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginform>label {
+  margin: 10px 0;
+}
+
+.logininput {
+  padding: 10px;
+  background-color: rgb(248, 240, 240);
+  border: none;
+}
+
+.loginbutton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.registerbutton {
+  top: 60px;
+  right: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  padding: 10px;
+}
