@@ -16,7 +16,7 @@ export const Login = (props) => {
             <h2>Login</h2>
             
             <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="licence">Full name</label>
+                <label htmlFor="licence">Full Name</label>
                 <input value={name} onChange={(e) => setName(e.target.value)} type="name" placeholder="name" id="name" />
 
                 <label htmlFor="email">email</label>
