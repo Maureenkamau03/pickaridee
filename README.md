@@ -15,7 +15,7 @@ The database keeps track of the current (active) RENTALs.
 
 ## Requirements:
 ## a:CAR:
-1.Car has a vehichle id,milage and car description
+1.Car has a vehichle id,milage, and car description
 
 ## b: Customers
 1)Each customer should have a licence number. 
